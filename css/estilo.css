@@ -13,7 +13,6 @@ body {
     color: #fff;
 }
 
-
   .main-header{
     position: relative;
     background: url('../img/fondo.jpg');
@@ -57,6 +56,8 @@ span{
 .card-title{
     color: black;
 }
+/*Mapa*/
+
 .forma{
     margin: 0;
     padding: 0;
@@ -68,9 +69,12 @@ span{
 width: 100%;
 height: 500px;
 }
+/*fin mapa*/
+
 .color{
     background: red;
 }
+
 /*Cards user*/
 .card-box{
     position: relative  ;
@@ -167,6 +171,8 @@ height: 500px;
 p{
     color: black;
     text-align: center;
+    font-family: sans-serif;
+    font-size: 20px; 
 }
 .fondo{
     
@@ -184,7 +190,7 @@ p{
     background: white;
     font-family: Arial, Helvetica, sans-serif;
    
-    transform: translateY(-10%);
+    transform: translateY(-5%);
     transition: 1s;
     
 
@@ -193,7 +199,7 @@ p{
     margin: 0;
     padding: 0;
     color: #fff;
-    font-size: 48px;
+    font-size: 35px;
 }
 .fondo p{
     font-family: sans-serif;
@@ -204,7 +210,7 @@ p{
     color: black;
     margin: 0;
     padding: 0;
-    font-size: 48px;
+    font-size: 35px;
 }
 .fondo:hover p{
     font-family: sans-serif;
@@ -280,3 +286,10 @@ bottom: 0;
     background: #ffc107;
 }
 
+.img-fluid{
+    width: 100%;
+}
+.card-img-top{
+    height: 300px;
+    
+}

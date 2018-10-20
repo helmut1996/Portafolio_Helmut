@@ -21,25 +21,43 @@
 <body>
 
 
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-color ">
-    <div class="container">
-      <h1 class="navbar-brand">PORTAFOLIO</h1>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto text-center">
-          <a class="nav-item nav-link " href="index.html">Inicio <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link " href="Galeria.html">Galeria</a>
-          <a class="nav-item nav-link " href="cursos.html">Cursos</a>
-          <a class="nav-item nav-link" href="contacto.html">Contacto</a>
-          <a class="nav-item nav-link active" href="Portafolio.html">Portafolio</a>
-        </div>
-      </div>
-
+  <nav class="navbar navbar-expand-lg navbar-dark bg-color fixed-top">
+    <a class="navbar-brand" href="#">PORTAFOLIO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Galeria.html">Galeria</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Servicios
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="mantenimiento.html">Mantenimiento</a>
+            <a class="dropdown-item" href="consolas.html">Nintendos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="cursos.html">cursos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="Portafolio.html">Portafolio</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+  
+      </ul>
     </div>
-  </nav>
+  </nav> 
+  
   <header class="main-header">
     <div class="background-overlay text-white py-5">
       <h1 class="text-center my-5 text-uppercase">portafolio</h1>
@@ -130,8 +148,21 @@
                 <p>En este es un ejemplo de como se registra un usuario al estilo instagram</p>
                 <a href="https://github.com/helmut1996/ejemplo_socilal" class="btn btn-default btnD">Ver Proyecto</a>
               </div>
+
+         
             </div>
           </div>
+
+          <div class="col-sm-4">
+            <div class="box my-5">
+              <div class="imgBox">
+                <img src="img/7.PNG" alt="" class="img-responsive">
+              </div>
+              <div class="content">
+                <h3>CRUD PHP</h3>
+                <p>Este es un crud simple con php y MySql</p>
+                <a href="https://github.com/helmut1996/crud_PHP" class="btn btn-default btnD">Ver Proyecto</a>
+              </div>
 
         </div>
       </div>
